@@ -1,0 +1,27 @@
+#! /usr/bin/bash
+
+for i in $*
+do 
+	case "$i" in 
+		*.sh) file=$i;;
+		*) file=$i.sh;;
+	esac
+
+	if [ ! -f $file ]
+	then
+		touch $file
+	else
+		echo "error: the file '$file' already exists"
+	fi
+
+	chmod +x $file
+	
+	if [ ! -s $file ]
+	then
+		printf '#! /bin/bash\n\n\n' > $file
+	else
+		echo "error: the file '$file' is not empty"
+	fi
+
+
+done
