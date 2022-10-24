@@ -1,0 +1,10 @@
+!! READ 'WHAT IS MKSHELL.TXT' BEFORE READING THIS FILE !!
+
+vshell does what mkshell does, but, vshell opens the shell file with vim
+
+which means:
+	| creates files | edits files with vim
+---------------------------------------------
+mksehll |       *      |
+---------------------------------------------
+vshell  |       *      |          *

@@ -1,0 +1,7 @@
+mkshell is the short form of 'make shell"
+And simply, you can make shell scripting files using mkshell on the terminal
+In order to do that, after moving the mkshell file to '/bin/' type "mkshell file1 file2 file3 .."
+featers:
+* you don't have to type the file's name with '.sh' in the end but you can
+* you can make many files
+* I'm too lazy to explain, try it with yourself and you can check the code if you want to learn more about the file
